@@ -2,16 +2,17 @@
 
 ### installation
 ```bash
-# for mac&linux 
-# install neovim first
-brew install neovim # for mac
-sudo apt install neovim # for linux 
+# for mac
+brew install neovim # usinging homebrew
 
-cd ~/.config
-git clone https://github.com/MetythornPenn/neovim-config.git nvim
-cd nvim
-nvim .
-
+# for ubuntu
+sudo snap install nvim --classic # using snap
+export PATH=$PATH:/snap/bin
+source ~/.bashrc
+# clone my nvim configuation
+git clone https://github.com/MetythornPenn/neovim-config.git ~/.config/nvim
+# open nvim
+nvim
 ```
 
 ### basic vim command 
