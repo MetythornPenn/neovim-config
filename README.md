@@ -9,6 +9,7 @@ brew install neovim # usinging homebrew
 sudo snap install nvim --classic # using snap
 export PATH=$PATH:/snap/bin
 source ~/.bashrc
+
 # clone my nvim configuation
 git clone https://github.com/MetythornPenn/neovim-config.git ~/.config/nvim
 # open nvim
@@ -122,3 +123,4 @@ G
 - [youtube tutorial to config nvim](https://www.youtube.com/watch?v=4zyZ3sw_ulc&list=PLsz00TDipIffreIaUNk64KxTIkQaGguqn&index=4)
 - [github for nvim config](https://github.com/cpow/neovim-for-newbs)
 - [vim tutorial](https://www.youtube.jcom/watch?v=RZ4p-saaQkc&t=2889s)
+- [dev environtment from Josean](https://github.com/josean-dev/dev-environment-files?tab=readme-ov-file)
